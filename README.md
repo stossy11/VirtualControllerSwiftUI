@@ -6,12 +6,14 @@ This is basically just a Virtual Controller view for SwiftUI
 
 ### Swift Package Manager SPM
 
-Add this repository's URL https://github.com/michael94ellis/SwiftUIJoystick
+Add this repository's URL https://github.com/stossy11/VirtualControllerSwiftUI
 
 ## How to use
 
 Basic Use Case:
 ```
+import VirtualControllerSwiftUI
+
 struct ContentView: View {
     @ObservedObject var virtualController: VirtualController = VirtualController.shared
     
